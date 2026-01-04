@@ -1,3 +1,23 @@
-body {
-  background-color: blue;
+.nav {
+  position: fixed;
+  display: flex;
+  align-items: flex-start;
+  top: 3rem;
+  gap: 1.5625rem;
+  left: 50%;
+}
+
+/* translates each nav component to the middle when active*/
+
+.nav-about {
+  transform: translate(-1.56rem);
+}
+.nav-skills {
+  transform: translate(-6.25rem);
+}
+.nav-projects {
+  transform: translate(-10.94rem);
+}
+.nav-contact {
+  transform: translate(-15.62rem);
 }

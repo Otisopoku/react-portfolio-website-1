@@ -5,6 +5,7 @@ import About from "./about/About";
 import Contact from "./contact/Contact";
 import Projects from "./projects/Projects";
 import Skills from "./skills/Skills";
+import "./styles/app.css";
 
 export const App = () => {
   return (
