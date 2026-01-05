@@ -6,6 +6,7 @@ import Projects from "./projects/Projects";
 import Skills from "./skills/Skills";
 import "./styles/app.css";
 import Background from "./background/background";
+import PlayerStats from "./playerStats/PlayerStats";
 
 export const App = () => {
   return (
@@ -18,6 +19,7 @@ export const App = () => {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <PlayerStats />
     </Router>
   );
 };
